@@ -1,0 +1,19 @@
+{
+  "name": "voting-dapp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deployContract.js && http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ganache": "ganache --wallet.seed myCustomSeed"
+  },
+  "author": "Adeola Olukanni",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "ganache": "^7.9.1",
+    "solc": "^0.8.21",
+    "web3": "^0.20.1"
+  }
+}
